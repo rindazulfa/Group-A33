@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ace Pet Shop Munggu</title>
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>For Your Lovely Pet</h1>
+                <p>Our Pets Are Not Our Whole Life,<br>But They Make Our Life Whole.</p>
+                <a href="" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="images/image1.png" alt="">
+            </div>
+        </div>
+    </div>        
+</div>
+
+<!------- featured categoris ------->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/kategori1.png">
+            </div>
+            <div class="col-3">
+                <img src="images/kategori2.png">
+            </div>
+            <div class="col-3">
+                <img src="images/kategori3.png">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!------- featured products ------->
+    <div class="small-container">
+        <h2 class="title">Features Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product1.png">
+                <h4>Royal Canin Dog & Cat Food</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Rp18.000 - Rp1.200.000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product2.png">
+                <h4>Pedigree & Whiskas</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rp6.500 - Rp121.000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product3.png">
+                <h4>Happy Dog & Happy Cat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Rp27.000 - Rp789.000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product4.png">
+                <h4>Bolt Dog & Bolt Cat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rp17.500 - Rp395.000</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Product</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product5.png">
+                <h4>Collar Character</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Rp13.000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product6.png">
+                <h4>Petopia Dog Food Can</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rp17.500</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product7.png">
+                <h4>Markotop Cat Litter</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Rp75.000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product8.png">
+                <h4>Snappy Tom</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rp19.000</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product9.png">
+                <h4>Yummy Dog Can</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rp18.000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product10.png">
+                <h4>Nature Bridge Fast Recovery</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rp35.500</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product11.png">
+                <h4>Pyramid Hill Can</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rp32.000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product12.png">
+                <h4>Toto Cat Litter</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Rp32.000</p>
+            </div>
+        </div>
+    </div>
+
+<!--------Offer-->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Ace Pet Shop Munggu</p>
+                    <h1>Asli Pup</h1>
+                    <small>AsliPup was born from a desire to help others feed their dogs in the most natural way possible - raw, nutritious and completely free of additives and preservatives. Our range of single-ingredient treats are a healthy, easy, and super tasty way to supplement your dog’s diet.</small><br>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-----testimonial----->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Very good shop! Large range with good prices. Special thanks to the seller for his helpful tips!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/user1.png">
+                    <h3>Kseniya Fanareva</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Pet Shop in the Munggu area. Very fair prices and well sorted compared to other pet shops in the immediate vicinity.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/user1.png">
+                    <h3>Oliver C. Thornton</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Great service, lots of products available and affordable prices!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/user1.png">
+                    <h3>Dessy Maranathas</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------- brands------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/brand1.png" >
+                </div>
+                <div class="col-5">
+                    <img src="images/brand2.jpg" >
+                </div>
+                <div class="col-5">
+                    <img src="images/brand3.png" >
+                </div>
+                <div class="col-5">
+                    <img src="images/brand5.png" >
+                </div>
+                <div class="col-5">
+                    <img src="images/brand6.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--------footer------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS Mobile Phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                    <p>Jl. Bypass Tanah Lot, Munggu, Mengwi, Badung</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Grab Mart</li>
+                        <li>Procut Price</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Our Social Media</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Youtube</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Group Digitalent Kominfo FGA A33</p>
+        </div>
+    </div>
+
+<!------js for toggle menu-------->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+
+</body>
+</html>
